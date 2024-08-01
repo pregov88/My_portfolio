@@ -1,0 +1,115 @@
+body {     
+    color: black;   
+    display:grid;
+    align-items: left; 
+    justify-items:center; 
+    background-color: rgb(209, 244, 195);
+        
+}
+
+h1{
+    font-size: 400%; 
+    color:rgb(48, 48, 78);
+    margin:0%;
+    padding-top:10%;
+}
+h2{
+        font-size: 200%;  
+        color:rgb(48, 48, 78);   } 
+ 
+        
+h3{
+    color:rgb(72, 55, 85);
+    align-self: center;
+    
+}
+  
+footer{
+    font-size:xx-small;  
+    margin:100px; 
+}
+
+nav{
+display :inline;
+
+
+}
+#mypic { 
+    width:350px;
+    height:400px; 
+    border-radius:50%;
+    border: 10px solid rgb(48, 48, 78);
+    margin:1%;
+    padding:1%;
+}
+.container1 {
+    display:flex;    
+    width:100%;
+    justify-content: center;     
+    background-color:rgb(209, 174, 241);
+}
+
+li    {
+    list-style-position: inside;
+      }
+
+.container2 {
+display:block;
+text-align: center; 
+width:100%;
+margin: 0%; 
+ border: 1px solid white;
+ padding-bottom:20px; 
+ font-size:150%;
+ background-image: url(C:/Users/windows/Downloads/Starter/images/stars2.jpg);
+ background-attachment:fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+#ref{
+   margin-top:25px; 
+   padding-bottom:20px;
+} 
+table,td,th{
+   border:1px solid black;
+   
+  
+}
+table {
+    width:200px;
+    margin-left:43%;
+    
+}
+
+.dots {
+    color: grey;
+    text-align: center;
+    font-size: 50px;
+    
+}
+ul a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+             }
+.menu {
+    list-style-type: none;
+    margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.menu li {
+    float: left;
+  }
+  li a:hover {
+    background-color: #112344;
+  }
+  #exp img {
+    width:2%;
+    height:2%;
+
+  }
