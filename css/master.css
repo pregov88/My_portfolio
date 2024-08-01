@@ -3,15 +3,18 @@ body {
     display:grid;
     align-items: left; 
     justify-items:center; 
-    background-color: rgb(209, 244, 195);
+    background-color:rgb(249, 248, 208);
+    
         
 }
 
 h1{
-    font-size: 400%; 
+    font-size: 500%; 
     color:rgb(48, 48, 78);
     margin:0%;
     padding-top:10%;
+    font-style:italic;
+    font-weight: 1000;
 }
 h2{
         font-size: 200%;  
@@ -45,8 +48,12 @@ display :inline;
 .container1 {
     display:flex;    
     width:100%;
-    justify-content: center;     
-    background-color:rgb(209, 174, 241);
+    justify-content: center;
+    background-image: url(C:/Users/windows/Downloads/Starter/My_portfolio/images/stars2.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;     
+   
 }
 
 li    {
@@ -61,10 +68,7 @@ margin: 0%;
  border: 1px solid white;
  padding-bottom:20px; 
  font-size:150%;
- background-image: url(C:/Users/windows/Downloads/Starter/My_portfolio/images/stars2.jpg);
- background-attachment:fixed;
- background-repeat: no-repeat;
- background-size: cover;
+ background-color: rgb(209, 244, 195); 
 }
 
 #ref{
@@ -112,3 +116,10 @@ ul a {
     width:2%;
     height:2%;
   }
+  #mailid , #Que {
+    width:200px;
+    margin:0px;    
+      }
+.sub{
+margin-top:10%;
+}
