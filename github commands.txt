@@ -15,15 +15,16 @@ git add .
 git commit -m made changes on files 1
 git push origin(will push all file to current branch)
 
-to go to or create a branch:
+to go to or create new branch:
 git checkout -b <branch_name>
-
-after changes are pushed into current branch you click on pull request (add comments)
-
-owner will merge pull request
 
  to go back to main branch:
  git checkout "main"
+
+
+after changes are pushed into current branch you click on pull request (add comments)
+owner will merge pull request
+
 
 
 
