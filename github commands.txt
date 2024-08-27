@@ -1,0 +1,30 @@
+every time to log in git bash  please go to my portfolio location :
+cd Downloads/Starter/My_portfolio
+
+
+one time used to initiaite that folder to be git:
+git init
+
+
+one time used to first push:
+git push -u origin main
+
+every time you create / add new file in that folder:
+git status
+git add .
+git commit -m made changes on files 1
+git push origin(will push all file to current branch)
+
+to go to or create a branch:
+git checkout -b <branch_name>
+
+after changes are pushed into current branch you click on pull request (add comments)
+
+owner will merge pull request
+
+ to go back to main branch:
+ git checkout "main"
+
+
+
+
