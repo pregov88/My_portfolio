@@ -26,7 +26,7 @@ after changes are pushed into current branch you click on pull request (add comm
 owner will merge pull request
 
 
-fork: 
+fork: ---- new line
 
 
 
